@@ -1,0 +1,35 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+
+  width: 60%;
+  height: 40%;
+  border-radius: 50px;
+  background: linear-gradient(90deg, 
+  #900C3F, #C70039, #FF1800);
+  background-size: 300% 100%;
+  animation: gradient 8s ease infinite;
+}
+@keyframes gradient{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+.yo{
+  width: 20vw;
+  height: 20vh;
+  padding: 10px;
+  border-radius: 50px;
+}
